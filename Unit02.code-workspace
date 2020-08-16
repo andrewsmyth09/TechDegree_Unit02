@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "../../../Downloads/responsive_layout_v3/images"
+		},
+		{
+			"name": "TechDegree_Unit02",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TechDegree_Unit02"
+	}
+}
