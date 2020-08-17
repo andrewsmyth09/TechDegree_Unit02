@@ -9,6 +9,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Baloo Tamma 2', cursive;
+    background: #f7f5f5;
 }
 
 /* 
@@ -19,7 +20,6 @@ nav {
     width: 100%;
     /* border-bottom: 3px solid red; */
     text-align: center;
-    background: #f7f5f5;
     margin-top: 0;
 }
 
@@ -59,7 +59,6 @@ nav {
 
 header {
     min-height: 200px;
-    background: #f7f5f5;
     text-align: center;
     padding: 1em;
 }
@@ -67,6 +66,10 @@ header {
 /* 
 ================ Main Portfolio section ================
 */
+
+.main_title, .card, .card > * {
+    background-color: white;
+}
 
 .main_title {
     text-align: center;
@@ -87,4 +90,35 @@ header {
 
 h3, p {
     margin-top: 20px;
+}
+
+/* 
+================ Contact section ================
+*/
+
+.contact {
+    text-align: center;
+    padding: 1.5em;
+}
+
+address {
+    font-style: normal;
+}
+
+.footer_nav {
+    width: 100%;
+    display: flex;
+}
+
+.nav_option {
+    width: 50%;
+    text-align: center;
+    padding: 1em;
+    font-weight: bold;
+    border-top: 1px solid grey;
+}
+
+.nav_right {
+    text-align: center;
+    text-transform: uppercase;
 }
